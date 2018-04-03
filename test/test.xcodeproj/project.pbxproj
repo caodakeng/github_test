@@ -13,6 +13,8 @@
 		4265E04E20738E200028F444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4265E04D20738E200028F444 /* Assets.xcassets */; };
 		4265E05120738E200028F444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4265E04F20738E200028F444 /* LaunchScreen.storyboard */; };
 		4265E05420738E200028F444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4265E05320738E200028F444 /* main.m */; };
+		4265E06120738FA10028F444 /* CXFirstModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4265E06020738FA10028F444 /* CXFirstModel.m */; };
+		4265E06420738FB70028F444 /* CXFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4265E06320738FB70028F444 /* CXFirstView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4265E05020738E200028F444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4265E05220738E200028F444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4265E05320738E200028F444 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4265E05F20738FA10028F444 /* CXFirstModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXFirstModel.h; sourceTree = "<group>"; };
+		4265E06020738FA10028F444 /* CXFirstModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXFirstModel.m; sourceTree = "<group>"; };
+		4265E06220738FB70028F444 /* CXFirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXFirstView.h; sourceTree = "<group>"; };
+		4265E06320738FB70028F444 /* CXFirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXFirstView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		4265E04320738E1F0028F444 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				4265E05A20738F890028F444 /* Class */,
 				4265E04420738E1F0028F444 /* AppDelegate.h */,
 				4265E04520738E1F0028F444 /* AppDelegate.m */,
 				4265E04720738E1F0028F444 /* ViewController.h */,
@@ -69,6 +76,49 @@
 				4265E05320738E200028F444 /* main.m */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		4265E05A20738F890028F444 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4265E05B20738F890028F444 /* CXItem */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4265E05B20738F890028F444 /* CXItem */ = {
+			isa = PBXGroup;
+			children = (
+				4265E05C20738F890028F444 /* ItemFirst */,
+			);
+			path = CXItem;
+			sourceTree = "<group>";
+		};
+		4265E05C20738F890028F444 /* ItemFirst */ = {
+			isa = PBXGroup;
+			children = (
+				4265E05D20738F890028F444 /* model */,
+				4265E05E20738F890028F444 /* view */,
+			);
+			path = ItemFirst;
+			sourceTree = "<group>";
+		};
+		4265E05D20738F890028F444 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4265E05F20738FA10028F444 /* CXFirstModel.h */,
+				4265E06020738FA10028F444 /* CXFirstModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4265E05E20738F890028F444 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4265E06220738FB70028F444 /* CXFirstView.h */,
+				4265E06320738FB70028F444 /* CXFirstView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +147,7 @@
 		4265E03920738E1F0028F444 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CX;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = CX;
 				TargetAttributes = {
@@ -143,6 +194,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4265E04920738E1F0028F444 /* ViewController.m in Sources */,
+				4265E06120738FA10028F444 /* CXFirstModel.m in Sources */,
+				4265E06420738FB70028F444 /* CXFirstView.m in Sources */,
 				4265E05420738E200028F444 /* main.m in Sources */,
 				4265E04620738E1F0028F444 /* AppDelegate.m in Sources */,
 			);
