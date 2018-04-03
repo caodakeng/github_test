@@ -15,6 +15,7 @@
 		4265E05420738E200028F444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4265E05320738E200028F444 /* main.m */; };
 		4265E06120738FA10028F444 /* CXFirstModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4265E06020738FA10028F444 /* CXFirstModel.m */; };
 		4265E06420738FB70028F444 /* CXFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4265E06320738FB70028F444 /* CXFirstView.m */; };
+		429436AE20739DE80092C807 /* CXFirstModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 429436AD20739DE80092C807 /* CXFirstModel1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		4265E06020738FA10028F444 /* CXFirstModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXFirstModel.m; sourceTree = "<group>"; };
 		4265E06220738FB70028F444 /* CXFirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXFirstView.h; sourceTree = "<group>"; };
 		4265E06320738FB70028F444 /* CXFirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXFirstView.m; sourceTree = "<group>"; };
+		429436AC20739DE80092C807 /* CXFirstModel1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXFirstModel1.h; sourceTree = "<group>"; };
+		429436AD20739DE80092C807 /* CXFirstModel1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXFirstModel1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 			children = (
 				4265E05F20738FA10028F444 /* CXFirstModel.h */,
 				4265E06020738FA10028F444 /* CXFirstModel.m */,
+				429436AC20739DE80092C807 /* CXFirstModel1.h */,
+				429436AD20739DE80092C807 /* CXFirstModel1.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4265E04920738E1F0028F444 /* ViewController.m in Sources */,
+				429436AE20739DE80092C807 /* CXFirstModel1.m in Sources */,
 				4265E06120738FA10028F444 /* CXFirstModel.m in Sources */,
 				4265E06420738FB70028F444 /* CXFirstView.m in Sources */,
 				4265E05420738E200028F444 /* main.m in Sources */,
